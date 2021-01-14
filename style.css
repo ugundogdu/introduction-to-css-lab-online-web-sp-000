@@ -15,7 +15,7 @@ div {
 
 /.style* ID selector to select the element with id 'main-header' */
 #main-header {
-  <h1 style="font-size:22px">How Does Writing CSS Differ From Writing HTML?</h1> /* Your code here! */
+  font-size: 22px;/* Your code here! */
   color:red;
 }
 
