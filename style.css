@@ -14,7 +14,7 @@ div {
 }
 
 /.style* ID selector to select the element with id 'main-header' */
-#main-header {
+h1#main-header {
   font-size: 22px;/* Your code here! */
   color:red;
 }
