@@ -44,10 +44,7 @@ RSpec.describe 'styling' do
       expect(selector).to include('padding: 30px;'), "Missing properly formatted padding declaration"
     end
     # 
-    it 'sets #main-header font size to 22px' do
-      selector = parsed_css.find_by_selector('#main-header')[0]
-      expect(selector).to include("font-size: 22px;"), "Missing properly formatted font-size declaration"
-    end
+    
 
     it 'sets .perspective-questions font style to italic' do
       selector = parsed_css.find_by_selector('.perspective-questions')[0]
